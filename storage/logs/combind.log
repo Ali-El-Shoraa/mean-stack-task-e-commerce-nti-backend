@@ -1,52 +1,4 @@
-2026-01-14 13:36:48 | error | Error found | GET | /api/v1/ | can't find /api/v1/ on this server 
-Error: can't find /api/v1/ on this server
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\app.js:27:8
-    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
-    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:297:9
-    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
-    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
-    at read (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\body-parser\lib\read.js:53:5)
-    at jsonParser (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\body-parser\lib\types\json.js:88:5)
-    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
-    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
-2026-01-14 13:39:32 | error | Error found | GET | /api/v1/me | can't find /api/v1/me on this server 
-Error: can't find /api/v1/me on this server
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\app.js:26:8
-    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
-    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:297:9
-    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
-    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
-    at read (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\body-parser\lib\read.js:53:5)
-    at jsonParser (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\body-parser\lib\types\json.js:88:5)
-    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
-    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
-2026-01-14 13:40:21 | error | Error found | GET | /api/v1/me | can't find /api/v1/me on this server 
-Error: can't find /api/v1/me on this server
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\app.js:26:8
-    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
-    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:297:9
-    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
-    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
-    at read (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\body-parser\lib\read.js:53:5)
-    at jsonParser (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\body-parser\lib\types\json.js:88:5)
-    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
-    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
-2026-01-14 13:42:10 | error | Error found | GET | /api/v1/me | can't find /api/v1/me on this server 
-Error: can't find /api/v1/me on this server
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\app.js:26:8
-    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
-    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:297:9
-    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
-    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
-    at read (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\body-parser\lib\read.js:53:5)
-    at jsonParser (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\body-parser\lib\types\json.js:88:5)
-    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
-    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
-2026-01-14 13:42:42 | error | Error found | GET | /api/v1/me | غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول 
+2026-01-26 11:36:56 | error | Error found | GET | /api/v1/auth/settings | غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول 
 Error: غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول
     at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\middlewares\auth.middleware.js:19:7
     at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
@@ -58,7 +10,7 @@ Error: غير مصرح لك بالوصول لهذا المسار. يرجى تس�
     at router.handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:186:3)
     at router (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:60:12)
     at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
-2026-01-14 13:55:51 | error | Error found | GET | /api/v1/auth/me | غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول 
+2026-01-26 11:37:33 | error | Error found | GET | /api/v1/auth/settings | غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول 
 Error: غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول
     at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\middlewares\auth.middleware.js:19:7
     at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
@@ -70,7 +22,7 @@ Error: غير مصرح لك بالوصول لهذا المسار. يرجى تس�
     at router.handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:186:3)
     at router (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:60:12)
     at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
-2026-01-14 13:55:53 | error | Error found | GET | /api/v1/auth/me | غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول 
+2026-01-26 11:38:13 | error | Error found | GET | /api/v1/auth/settings | غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول 
 Error: غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول
     at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\middlewares\auth.middleware.js:19:7
     at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
@@ -82,9 +34,81 @@ Error: غير مصرح لك بالوصول لهذا المسار. يرجى تس�
     at router.handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:186:3)
     at router (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:60:12)
     at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
-2026-01-14 13:56:00 | error | Error found | GET | /api/v1/auth/me | Cannot read properties of undefined (reading 'id') 
-TypeError: Cannot read properties of undefined (reading 'id')
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:107:37
+2026-01-26 11:38:30 | error | Error found | GET | /api/v1/auth/settings | غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول 
+Error: غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\middlewares\auth.middleware.js:19:7
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:297:9
+    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:186:3)
+    at router (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:60:12)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+2026-01-26 11:38:31 | error | Error found | GET | /api/v1/auth/settings | غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول 
+Error: غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\middlewares\auth.middleware.js:19:7
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:297:9
+    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:186:3)
+    at router (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:60:12)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+2026-01-26 11:39:46 | error | Error found | GET | /api/v1/auth/products | غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول 
+Error: غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\middlewares\auth.middleware.js:19:7
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:297:9
+    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:186:3)
+    at router (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:60:12)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+2026-01-26 11:41:36 | error | Error found | GET | /api/v1/auth/products | غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول 
+Error: غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\middlewares\auth.middleware.js:19:7
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:297:9
+    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:186:3)
+    at router (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:60:12)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+2026-01-26 11:41:37 | error | Error found | GET | /api/v1/auth/products | غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول 
+Error: غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\middlewares\auth.middleware.js:19:7
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:297:9
+    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:186:3)
+    at router (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:60:12)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+2026-01-26 11:42:19 | error | Error found | GET | /api/v1/auth/settings | غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول 
+Error: غير مصرح لك بالوصول لهذا المسار. يرجى تسجيل الدخول
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\middlewares\auth.middleware.js:19:7
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:297:9
+    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
+    at router.handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:186:3)
+    at router (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:60:12)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+2026-01-26 11:42:39 | error | Error found | GET | /api/v1/settings | SiteSettingSchema is not defined 
+ReferenceError: SiteSettingSchema is not defined
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\settings.controller.js:19:20
     at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
     at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
     at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:157:13)
@@ -94,95 +118,182 @@ TypeError: Cannot read properties of undefined (reading 'id')
     at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:295:15
     at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
     at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
-2026-01-14 14:07:22 | error | Error found | POST | /api/v1/auth/register | next is not a function 
-TypeError: next is not a function
-    at model.<anonymous> (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\schemas\User.schema.js:49:3)
-    at async Kareem.execPre (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\kareem\index.js:65:24)
-    at async model.$__save (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\mongoose\lib\model.js:369:5)
-    at async model.save (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\mongoose\lib\model.js:609:5)
-    at async D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\mongoose\lib\model.js:2714:9
-    at async Promise.all (index 0)
-    at async model.create (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\mongoose\lib\model.js:2699:11)
-    at async D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:40:16
-2026-01-14 14:07:57 | info | New user registered: ahmed.ali@example.com 
-2026-01-14 14:31:28 | info | New user registered: ahmed.alia@example.com 
-2026-01-14 14:32:16 | info | New user registered: ahmeda.alia@example.com 
-2026-01-14 14:52:59 | error | Error found | POST | //api/v1/auth/register | can't find //api/v1/auth/register on this server 
-Error: can't find //api/v1/auth/register on this server
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\app.js:26:8
+2026-01-26 11:42:58 | error | Error found | GET | /api/v1/settings | SiteSettingSchema is not defined 
+ReferenceError: SiteSettingSchema is not defined
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\settings.controller.js:19:20
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:295:15
+    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
+2026-01-26 11:43:15 | error | Error found | GET | /api/v1/settings | SiteSettingSchema is not defined 
+ReferenceError: SiteSettingSchema is not defined
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\settings.controller.js:19:20
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:295:15
+    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
+2026-01-26 11:44:30 | error | Error found | GET | /api/v1/settings | SiteSettingSchema is not defined 
+ReferenceError: SiteSettingSchema is not defined
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\settings.controller.js:19:20
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:295:15
+    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
+2026-01-26 11:46:38 | error | Error found | GET | /api/v1/settings | SiteSettingSchema is not defined 
+ReferenceError: SiteSettingSchema is not defined
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\settings.controller.js:19:20
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:295:15
+    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
+2026-01-26 11:46:41 | error | Error found | GET | /api/v1/settings/ | SiteSettingSchema is not defined 
+ReferenceError: SiteSettingSchema is not defined
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\settings.controller.js:19:20
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:295:15
+    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
+2026-01-26 11:46:42 | error | Error found | GET | /api/v1/settings | SiteSettingSchema is not defined 
+ReferenceError: SiteSettingSchema is not defined
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\settings.controller.js:19:20
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:295:15
+    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
+2026-01-26 12:24:28 | error | Error found | GET | /api/v1/settings | SiteSettingSchema.getSiteSettings is not a function 
+TypeError: SiteSettingSchema.getSiteSettings is not a function
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\settings.controller.js:20:44
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:295:15
+    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
+2026-01-26 12:33:36 | error | Error found | GET | /api/v1/settings | SiteSettingSchema.getSiteSettings is not a function 
+TypeError: SiteSettingSchema.getSiteSettings is not a function
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\settings.controller.js:20:44
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\utils\catch-async.utili.js:2:3
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:157:13)
+    at Route.dispatch (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\route.js:117:3)
+    at handle (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:435:11)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:295:15
+    at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
+    at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
+2026-01-26 12:33:45 | error | Error found | GET | /api/v1/settings | Cannot read properties of undefined (reading '_defaultToObjectOptions') 
+TypeError: Cannot read properties of undefined (reading '_defaultToObjectOptions')
+    at Document.$toObject (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\mongoose\lib\document.js:3841:41)
+    at model.set [as logo] (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\mongoose\lib\helpers\document\compile.js:186:17)
+    at _clone (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\clone\clone.js:162:16)
+    at clone (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\clone\clone.js:202:10)
+    at NodeCache._wrap (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\node-cache\lib\node_cache.js:700:24)
+    at NodeCache.set (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\node-cache\lib\node_cache.js:435:31)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\settings.controller.js:23:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-01-26 12:36:41 | error | Error found | GET | /api/v1/settings | Cannot read properties of undefined (reading '_defaultToObjectOptions') 
+TypeError: Cannot read properties of undefined (reading '_defaultToObjectOptions')
+    at Document.$toObject (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\mongoose\lib\document.js:3841:41)
+    at model.set [as logo] (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\mongoose\lib\helpers\document\compile.js:186:17)
+    at _clone (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\clone\clone.js:162:16)
+    at clone (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\clone\clone.js:202:10)
+    at NodeCache._wrap (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\node-cache\lib\node_cache.js:700:24)
+    at NodeCache.set (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\node-cache\lib\node_cache.js:435:31)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\settings.controller.js:23:9
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-02-01 10:26:53 | error | Error found | POST | /api/v1/auth/login | data and hash arguments required 
+Error: data and hash arguments required
+    at Object.compare (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\bcrypt.js:204:17)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\promises.js:26:12
+    at new Promise (<anonymous>)
+    at Object.promise (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\promises.js:17:12)
+    at Object.compare (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\bcrypt.js:200:25)
+    at userSchema.methods.matchPassword (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\schemas\User.schema.js:64:23)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:95:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-02-01 10:30:19 | error | Error found | POST | /api/v1/auth/login | data and hash arguments required 
+Error: data and hash arguments required
+    at Object.compare (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\bcrypt.js:204:17)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\promises.js:26:12
+    at new Promise (<anonymous>)
+    at Object.promise (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\promises.js:17:12)
+    at Object.compare (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\bcrypt.js:200:25)
+    at userSchema.methods.matchPassword (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\schemas\User.schema.js:64:23)
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:95:29
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+2026-02-01 10:30:38 | warn | Failed login attempt: ahmed.ali@example.com 
+2026-02-01 10:30:38 | error | Error found | POST | /api/v1/auth/login | بيانات تسجيل الدخول غير صحيحة 
+Error: بيانات تسجيل الدخول غير صحيحة
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:96:17
+2026-02-01 10:31:03 | warn | Failed login attempt: ahmeda555.alia@example.com 
+2026-02-01 10:31:03 | error | Error found | POST | /api/v1/auth/login | بيانات تسجيل الدخول غير صحيحة 
+Error: بيانات تسجيل الدخول غير صحيحة
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:96:17
+2026-02-01 10:31:32 | warn | Failed login attempt: ahmeda555.alia@example.com 
+2026-02-01 10:31:32 | error | Error found | POST | /api/v1/auth/login | بيانات تسجيل الدخول غير صحيحة 
+Error: بيانات تسجيل الدخول غير صحيحة
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:96:17
+2026-02-01 10:31:47 | warn | Failed login attempt: ahmeda555.alia@example.com 
+2026-02-01 10:31:47 | error | Error found | POST | /api/v1/auth/login | بيانات تسجيل الدخول غير صحيحة 
+Error: بيانات تسجيل الدخول غير صحيحة
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:96:17
+2026-02-01 10:32:35 | warn | Failed login attempt: ahmeda555.alia@example.com 
+2026-02-01 10:32:35 | error | Error found | POST | /api/v1/auth/login | بيانات تسجيل الدخول غير صحيحة 
+Error: بيانات تسجيل الدخول غير صحيحة
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:96:17
+2026-02-01 10:32:59 | warn | Failed login attempt: ahmeda555.alia@example.com 
+2026-02-01 10:32:59 | error | Error found | POST | /api/v1/auth/login | بيانات تسجيل الدخول غير صحيحة 
+Error: بيانات تسجيل الدخول غير صحيحة
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:96:17
+2026-02-01 10:34:36 | info | New user registered: ahmeda555.alia@example.com 
+2026-02-01 10:34:46 | info | User logged in: ahmeda555.alia@example.com 
+2026-02-01 10:35:42 | info | User logged in: ahmeda555.alia@example.com 
+2026-02-01 10:36:06 | info | User logged in: ahmeda555.alia@example.com 
+2026-02-01 10:58:02 | info | User logged in: ahmeda555.alia@example.com 
+2026-02-01 12:34:38 | info | User logged in: ahmeda555.alia@example.com 
+2026-02-01 12:45:11 | info | User logged in: ahmeda555.alia@example.com 
+2026-02-01 15:16:51 | error | Error found | GET | /api/v1products | can't find /api/v1products on this server 
+Error: can't find /api/v1products on this server
+    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\app.js:39:8
     at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
     at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)
     at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:297:9
     at processParams (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:582:12)
     at next (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:291:5)
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\body-parser\lib\read.js:171:5
-    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
-    at invokeCallback (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\raw-body\index.js:238:16)
-    at done (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\raw-body\index.js:227:7)
-2026-01-14 14:53:17 | info | New user registered: ahmeda5.alia@example.com 
-2026-01-14 14:55:07 | info | New user registered: ahmeda55.alia@example.com 
-2026-01-14 14:55:07 | error | Error found | POST | /api/v1/auth/register | userData is not defined 
-ReferenceError: userData is not defined
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:82:33
-    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
-2026-01-14 14:55:25 | error | Error found | POST | /api/v1/auth/register | البريد الإلكتروني مستخدم بالفعل 
-Error: البريد الإلكتروني مستخدم بالفعل
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:55:17
-    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
-2026-01-14 14:55:43 | info | New user registered: ahmeda555.alia@example.com 
-2026-01-14 18:05:54 | error | Error found | POST | /api/v1/auth/login | Expected double-quoted property name in JSON at position 76 (line 4 column 1) 
-SyntaxError: Expected double-quoted property name in JSON at position 76 (line 4 column 1)
-    at JSON.parse (<anonymous>)
-    at parse (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\body-parser\lib\types\json.js:72:19)
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\body-parser\lib\read.js:162:18
-    at AsyncResource.runInAsyncScope (node:async_hooks:214:14)
-    at invokeCallback (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\raw-body\index.js:238:16)
-    at done (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\raw-body\index.js:227:7)
-    at IncomingMessage.onEnd (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\raw-body\index.js:287:7)
-    at IncomingMessage.emit (node:events:508:28)
-    at endReadableNT (node:internal/streams/readable:1701:12)
-    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
-2026-01-14 18:06:04 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:06:13 | warn | Failed login attempt: ahmeda55a5.alia@example.com 
-2026-01-14 18:06:13 | error | Error found | POST | /api/v1/auth/login | بيانات تسجيل الدخول غير صحيحة 
-Error: بيانات تسجيل الدخول غير صحيحة
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:152:17
-    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
-2026-01-14 18:06:18 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:07:38 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:07:58 | error | Error found | POST | /api/v1/auth/login | data and hash arguments required 
-Error: data and hash arguments required
-    at Object.compare (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\bcrypt.js:204:17)
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\promises.js:26:12
-    at new Promise (<anonymous>)
-    at Object.promise (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\promises.js:17:12)
-    at Object.compare (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\bcrypt.js:200:25)
-    at userSchema.methods.matchPassword (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\schemas\User.schema.js:64:23)
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:148:29
-    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
-2026-01-14 18:08:26 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:10:37 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:10:43 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:11:39 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:11:47 | info | User logged in: ahmeشda555.alia@example.com 
-2026-01-14 18:11:51 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:12:29 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:12:48 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:14:30 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:14:40 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:14:51 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:15:03 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:18:01 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:18:33 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:18:53 | info | User logged in: ahmeda555.alia@example.com 
-2026-01-14 18:19:37 | error | Error found | POST | /api/v1/auth/login | data and hash arguments required 
-Error: data and hash arguments required
-    at Object.compare (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\bcrypt.js:204:17)
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\promises.js:26:12
-    at new Promise (<anonymous>)
-    at Object.promise (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\promises.js:17:12)
-    at Object.compare (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\bcrypt\bcrypt.js:200:25)
-    at userSchema.methods.matchPassword (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\schemas\User.schema.js:64:23)
-    at D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\src\controllers\auth.controller.js:151:29
-    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
-2026-01-14 18:19:44 | info | User logged in: ahmeda555.alia@example.com 
+    at read (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\body-parser\lib\read.js:53:5)
+    at jsonParser (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\body-parser\lib\types\json.js:88:5)
+    at Layer.handleRequest (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\lib\layer.js:152:17)
+    at trimPrefix (D:\VisulStudioCode\mean-stack-nti-course\mean-stack-task-e-commerce-nti\backend\node_modules\router\index.js:342:13)

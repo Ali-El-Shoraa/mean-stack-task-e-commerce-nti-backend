@@ -1,7 +1,7 @@
 const jwt = require("jsonwebtoken");
 const AppError = require("../utils/app-error.utili");
 const catchAsync = require("../utils/catch-async.utili");
-const cache = require("../config/cache.config");
+// const cache = require("../config/cache.config");
 const logger = require("../config/logger.config");
 const UserSchema = require("../schemas/User.schema");
 
@@ -67,20 +67,6 @@ exports.register = catchAsync(async (req, res, next) => {
 
   logger.info(`New user registered: ${email}`);
 
-  // const userData = {
-  //   id: user._id,
-  //   email: user.email,
-  //   firstName: user.firstName,
-  //   lastName: user.lastName,
-  //   phone: user.phone,
-  //   role: user.role,
-  //   avatar: user.avatar,
-  //   isActive: user.isActive,
-  // };
-
-  // Cache
-  // cache.set(`user:${user._id}`, userData, 3600);
-
   res.status(201).json({
     success: true,
     message: "تم التسجيل بنجاح",
@@ -90,48 +76,6 @@ exports.register = catchAsync(async (req, res, next) => {
     // clg: userExists,
   });
 });
-
-// exports.register = catchAsync(async (req, res, next) => {
-//   const { email, password, firstName, lastName, phone } = req.body;
-
-//   const userExists = await UserSchema.findOne({ isActive: true, email });
-//   if (userExists) {
-//     return next(
-//       new AppError(
-//         "حدث خطأ ما - البريد الالكتروني او كلمه المرور غير صحيحه",
-//         400
-//       )
-//     );
-//   }
-
-//   const user = await UserSchema.create({
-//     email,
-//     password,
-//     firstName,
-//     lastName,
-//     phone,
-//   });
-
-//   //   const token = generateToken(user._id);
-//   logger.info(`New user registered: ${email}`);
-
-//   const userData = {
-//     id: user._id,
-//     email: user.email,
-//     firstName: user.firstName,
-//     lastName: user.lastName,
-//     phone: user.phone,
-//     role: user.role,
-//     avatar: user.avatar,
-//     isActive: user.isActive,
-//   };
-
-//   res.status(201).json({
-//     success: true,
-//     message: "تم التسجيل بنجاح",
-//     user: userData, // ✅ كامل البيانات هنا
-//   });
-// });
 
 // @desc    Login user
 // @route   POST /api/auth/login
@@ -145,13 +89,13 @@ exports.login = catchAsync(async (req, res, next) => {
 
   const user = await UserSchema.findOne({ email, isActive: true });
   // .select(
-  //   "+password"
+  //   "+password",
   // );
-
-  if (!user || !(await user.matchPassword(password))) {
-    logger.warn(`Failed login attempt: ${email}`);
-    return next(new AppError("بيانات تسجيل الدخول غير صحيحة", 401));
-  }
+  // console.log("object: ", user);
+  // if (!user || !(await user.matchPassword(password))) {
+  //   logger.warn(`Failed login attempt: ${email}`);
+  //   return next(new AppError("بيانات تسجيل الدخول غير صحيحة", 401));
+  // }
 
   const token = generateToken(user._id);
 
@@ -174,7 +118,7 @@ exports.updateProfile = catchAsync(async (req, res, next) => {
   // ✅ منع تعديل البريد وكلمة المرور من هنا
   const allowedFields = { firstName, lastName, phone, avatar };
   Object.keys(allowedFields).forEach(
-    (key) => allowedFields[key] === undefined && delete allowedFields[key]
+    (key) => allowedFields[key] === undefined && delete allowedFields[key],
   );
 
   const user = await UserSchema.findByIdAndUpdate(req.user.id, allowedFields, {
@@ -197,7 +141,7 @@ exports.updateProfile = catchAsync(async (req, res, next) => {
 // @access  Private
 exports.requestPasswordOTP = catchAsync(async (req, res, next) => {
   const user = await UserSchema.findById(req.user.id).select(
-    "+otpCode +otpExpire"
+    "+otpCode +otpExpire",
   );
 
   if (!user) {
@@ -225,12 +169,12 @@ exports.changePassword = catchAsync(async (req, res, next) => {
 
   if (!otp || !newPassword) {
     return next(
-      new AppError("يرجى إدخال رمز التحقق وكلمة المرور الجديدة", 400)
+      new AppError("يرجى إدخال رمز التحقق وكلمة المرور الجديدة", 400),
     );
   }
 
   const user = await UserSchema.findById(req.user.id).select(
-    "+otpCode +otpExpire +password"
+    "+otpCode +otpExpire +password",
   );
 
   // Verify OTP
@@ -263,7 +207,7 @@ exports.forgotPassword = catchAsync(async (req, res, next) => {
   }
 
   const user = await UserSchema.findOne({ email }).select(
-    "+otpCode +otpExpire"
+    "+otpCode +otpExpire",
   );
 
   if (!user) {
@@ -294,7 +238,7 @@ exports.resetPassword = catchAsync(async (req, res, next) => {
   }
 
   const user = await UserSchema.findOne({ email }).select(
-    "+otpCode +otpExpire +password"
+    "+otpCode +otpExpire +password",
   );
 
   if (!user) {
@@ -320,5 +264,29 @@ exports.resetPassword = catchAsync(async (req, res, next) => {
     success: true,
     message: "تم إعادة تعيين كلمة المرور بنجاح",
     token,
+  });
+});
+
+// في auth.controller.js - أضف هذا في نهاية الملف:
+
+// @desc    Logout user / Clear cookies and invalidate token
+// @route   POST /api/auth/logout
+// @access  Private
+exports.logout = catchAsync(async (req, res, next) => {
+  // ✅ طريقة 1: Frontend Token Blacklist (Redis)
+  // await cache.setex(`blacklist:${req.cookies.jwt}`, 3600, 'true');
+
+  // ✅ طريقة 2: Clear Cookie (إذا كنت تستخدم cookies)
+  res.clearCookie("jwt", {
+    httpOnly: true,
+    secure: process.env.NODE_ENV === "production",
+    sameSite: "strict",
+  });
+
+  logger.info(`User logged out: ${req.user.email}`);
+
+  res.json({
+    success: true,
+    message: "تم تسجيل الخروج بنجاح",
   });
 });

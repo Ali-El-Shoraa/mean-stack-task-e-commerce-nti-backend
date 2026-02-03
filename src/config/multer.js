@@ -6,18 +6,22 @@ const fs = require("fs");
 // دالة لإنشاء مجلدات multer حسب النوع
 const createUploadConfig = (uploadType) => {
   const uploadDirs = {
-    // hero: "storage/uploads/hero",
-    // about: "storage/uploads/about",
-    // services: "storage/uploads/services",
-    // portfolio: "storage/uploads/portfolio",
-    // clients: "storage/uploads/clients",
-    // settings: "storage/uploads/settings",
-    // themeSettings: "storage/uploads/themes",
-    // blog: "storage/uploads/blog",
-    // // aboutcompany: "storage/uploads/about-company",
+    siteSetting: `${keys.upload_path}/site-sitting`,
+    heroSection: `${keys.upload_path}/home/section/hero`,
+    usersAvatar: `${keys.upload_path}/users`,
+    productMen: `${keys.upload_path}/product-men`,
+    productWomens: `${keys.upload_path}/product-womens`,
+    // about: `${keys.upload_path}/about`,
+    // services: `${keys.upload_path}/services`,
+    // portfolio: `${keys.upload_path}/portfolio`,
+    // clients: `${keys.upload_path}/clients`,
+    // settings: `${keys.upload_path}/settings`,
+    // themeSettings: `${keys.upload_path}/themes`,
+    // blog: `${keys.upload_path}/blog`,
+    // // aboutcompany: `${keys.upload_path}/about-company`,
   };
 
-  const uploadDir = uploadDirs[uploadType] || "storage/uploads/default";
+  const uploadDir = uploadDirs[uploadType] || `${keys.upload_path}/default`;
 
   // إنشاء المجلد إذا لم يكن موجود
   if (!fs.existsSync(uploadDir)) {
