@@ -43,7 +43,7 @@ const userSchema = new Schema(
 
 // Hash كلمة المرور قبل الحفظ
 userSchema.pre("save", async function (next) {
-  if (!this.isModified("password")) return next();
+  if (!this.isModified("password")) return next;
 
   this.password = await bcrypt.hash(this.password, 12);
   next;
@@ -82,5 +82,21 @@ userSchema.methods.verifyOTP = function (enteredOTP) {
     .digest("hex");
   return this.otpCode === hashedOTP && this.otpExpire > Date.now();
 };
+
+// في نهاية User Schema - قبل module.exports
+userSchema.virtual("addresses", {
+  ref: "Address",
+  localField: "_id",
+  foreignField: "user",
+  match: { isActive: true },
+});
+
+userSchema.virtual("defaultAddress", {
+  ref: "Address",
+  localField: "_id",
+  foreignField: "user",
+  match: { isActive: true, isDefault: true },
+  justOne: true,
+});
 
 module.exports = model("User", userSchema);

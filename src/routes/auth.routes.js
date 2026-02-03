@@ -5,7 +5,8 @@ const { protect } = require("../middlewares/auth.middleware");
 const {
   register,
   login,
-  getMe,
+  // getMe,
+  logout,
   updateProfile,
   requestPasswordOTP,
   changePassword,
@@ -20,11 +21,12 @@ router.post("/forgot-password", forgotPassword);
 router.post("/reset-password", resetPassword);
 
 // Protected routes
-router.use(protect);
+// router.use(protect);
 
 // router.get("/me", getMe);
 router.put("/update-profile", updateProfile);
 router.post("/request-password-otp", requestPasswordOTP);
 router.put("/change-password", changePassword);
+router.post("/logout", logout); // ✅ أضف هذا السطر
 
 module.exports = router;

@@ -9,11 +9,18 @@ const categoryProductSchema = new Schema({
   },
   slug: {
     type: String,
-    required: true,
+    // required: true,
     unique: true,
     lowercase: true,
     index: true,
   },
+  // الربط بالفئة الأم (مثل Men أو Women)
+  parent: {
+    type: Schema.Types.ObjectId,
+    ref: "Category",
+    default: null,
+  },
+
   sortOrder: { type: Number, default: 0 },
   createdAt: { type: Date, default: Date.now },
   isActive: { type: Boolean, default: true },
